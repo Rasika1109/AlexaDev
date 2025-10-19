@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laasika Fogla — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Canvas for bouncing balls -->
+  <canvas id="bgCanvas"></canvas>
+
+  <div class="container">
+    <header>
+      <div class="brand">
+        <div class="logo">YN</div>
+        <div>
+          <div class="name">Laasika Fogla</div>
+          <div class="role">Frontend & Backend Developer</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-right">
+        <button id="themeToggle">🌙</button>
+        <a href="#contact" class="btn">Hire Me</a>
+      </div>
+    </header>
+
+   <!-- Hero -->
+<section class="hero">
+  <div class="card">
+    <h1>Hey — I'm Laasika</h1>
+    <p>I love building clean, functional interfaces and diving into backend development with Java.</p>
+     <!-- Avatar / Profile Image -->
+    <div class="avatar">
+  <img src="images/profile.jpg" alt="Laasika Avatar">
+</div>
+
+    
+    <!-- Button -->
+    <div class="hero-buttons" style="display:flex;justify-content:center;margin-top:20px;">
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+    
+    <!-- Centered View My Work button -->
+    <div class="hero-buttons" style="display:flex;justify-content:center;margin-top:20px;">
+      <a href="#projects" class="btn">View My Work</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- About -->
+    <section id="about" class="about section">
+      <div class="card">
+        <h2>About Me</h2>
+        <p>I'm a developer with a focus on frontend (HTML, CSS, JS) and backend (Java). I enjoy solving problems, working on interesting projects, and exploring new technologies.</p>
+        <p>Interests: AI, data visualization, and building efficient systems.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills section">
+      <div class="card">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">HTML</div>
+          <div class="skill">CSS</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">Java</div>
+          <div class="skill">React</div>
+          <div class="skill">Backend Development</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+  <h2>Projects</h2>
+  <div class="project-cards">
+    <div class="project-card">
+      <h3>Landing Page UI</h3>
+      <p>Responsive landing page with animations and accessible design.</p>
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn">Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>Data Visualization</h3>
+      <p>Interactive charts built with JavaScript and D3.js.</p>
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn">Repo</a>
+    </div>
+    <div class="project-card">
+      <h3>Java Backend API</h3>
+      <p>REST API for a small e-commerce prototype using Java.</p>
+      <a href="#" class="btn">Live Demo</a>
+      <a href="#" class="btn">Repo</a>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section id="contact" class="contact section">
+      <div class="card">
+        <h2>Contact</h2>
+        <form id="contactForm">
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <input type="text" placeholder="Subject">
+          <textarea placeholder="Message" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+        <div class="social-links">
+  <a href="https://github.com/Rasika1109" target="_blank" class="btn btn-ghost">GitHub</a>
+  <a href="https://www.linkedin.com/in/laasika-fogla-7a402a2b8/" target="_blank" class="btn btn-ghost">LinkedIn</a>
+</div>
+
+      </div>
+    </section>
+
+    <footer>
+      <p>© <span id="year"></span> Laasika Fogla • Built with ❤️</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
